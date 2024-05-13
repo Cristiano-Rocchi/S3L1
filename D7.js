@@ -39,6 +39,12 @@ const numPari = numbers.filter(function (number) {
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+/* const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let sum = 0;
+const sumNumbers = numbers.forEach(function (number) {
+  sum += number;
+});
+console.log(sum); */
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
