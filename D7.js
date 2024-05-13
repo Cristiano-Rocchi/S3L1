@@ -2,22 +2,39 @@
   Scrivi una funzione per concatenare due stringhe ricevute come parametri, selezionando solamente i primi 2 caratteri della
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
-const string1 = "questa è la prima stringa";
+/* const string1 = "questa è la prima stringa";
 const string2 = "invece questa è la seconda";
 function convertString() {
   const finalString = string1.substr(0, 3) + string2.substr(-3);
   return finalString;
 }
 
-console.log(convertString().toUpperCase());
+console.log(convertString().toUpperCase()); */
 
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
 
+/* function random() {
+  const casualNumbers = [];
+  for (let index = 0; index < 10; index++) {
+    const randomNumber = Math.random() * 100;
+    casualNumbers.push(randomNumber);
+    return casualNumbers;
+  }
+}
+console.log(casualNumbers); 
+
+NON FUNZIONA*/
+
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
+
+/* const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const numPari = numbers.filter(function (number) {
+  return number % 2 === 0;
+}); */
 
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
